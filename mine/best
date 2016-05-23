@@ -1,0 +1,64 @@
+pov{
+	cam_pos(0,0,20)
+	cam_dir(0,1,0)
+}
+sphere{
+	pos(0,1,0)
+}
+	spot{
+		pos(0,0,10)
+		color(256,256,256)
+		int(90);
+	}
+	plane{
+	color(255,255,0);
+		rot(0,1,0)
+		pos(0,-1,0)
+	}
+	      plane{
+	      color(0,256,0)
+                rot(0,1,0)
+                pos(0,5,0)
+        }
+	cylinder{
+	color(0,0,256)
+		pos(-5,4,-3);
+		rot(20,0,0);
+	}	
+	   cylinder{
+	color(0,0,256)
+                pos(5,0,-3);
+        }
+	     cylinder{
+	color(0,0,256)
+                pos(3,0,-8);
+        }
+	     cylinder{
+	color(0,0,256)
+                pos(-3,0,-8);
+        }
+	     cylinder{
+	color(0,0,256)
+                pos(7,0,1);
+        }
+	     cylinder{
+	color(0,0,256)
+                pos(-7,0,1);
+        }
+	
+	plane{
+	color(256,0,0);
+		rot(0,0,90)
+		pos(0,0,-30)
+	}
+	sphere{
+		rot(20,0,0)
+		color(256,0,0);
+		pos(0,2,0)
+		size(200);
+	}
+	cone{
+	color(100,255,100);
+	pos(0,2,0);
+	rot(0,0,0);
+}
